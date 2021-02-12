@@ -26,19 +26,18 @@
     </style>
   </head>
   <body >
-    
-  <body>
-  
-  <img src="Logo1.png" width="1350" height="255">
-<br/>
-<br/>
+    <br/>
+<img src="Logo2.png" width="1350" height="255">
 <h1> Qual o propósito desse site? </h1>
 
 <h2>  Este canal é voltado exclusivamente para denúncias de locais que não possuem acessibilidade. Exemplo: Locais que não possuem rampa de acesso, elevador, banheiro adaptado, etc. </h2>
 <h2> <strong>Lembre-se: denúncia falsa é crime!!!</strong> (CP, art. 339 e art. 340). </h2>
 
 <br/>
-<br/>
+  <body>
+ 
+</p
+
 <div align="center">
 
 <button  onclick="window.location.href='telaCadastro.php';" type="button" class="btn btn-primary btn-lg">Fazer Cadastro</button>
