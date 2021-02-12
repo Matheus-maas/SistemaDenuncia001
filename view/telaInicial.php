@@ -30,7 +30,7 @@
   <body>
     
          <br/>
-         <img src="imagens/Logo2.png" width="1350" height="255">
+         <img src="imagens/logo1.png" width="1350" height="255">
   
 <h1> Qual o propósito desse site? </h1>
 
