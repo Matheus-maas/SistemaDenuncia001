@@ -22,13 +22,18 @@
         }
         
         .painelBotao{
-            text-align: left;
+            text-align: 100%;
             width: 1730px;
             height: 70px;
             padding: 10px;
             background-color: darkblue;
         }
-        
+        iframe{
+                width: 100%;
+                margin-top: 20px;
+                background-color: white;
+                height: 500px;
+            }
         h1 {
             color: #010101;
             text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.97);
@@ -50,7 +55,7 @@
   </head>
   <body>
       <div class="imagem"> 
-         <img src="imagens/logo1.png" width="1730" height="254"> <br/>
+         <img src="imagens/logo1.png" width="1350" height="240"> <br/>
          <div/> 
          
          <div class="painelBotao">
@@ -76,7 +81,7 @@ Exemplo: Locais que não possuem rampa de acesso, elevador, banheiro adaptado, e
 
 <label> 
 Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas <br/>
-Versão: 1.00
+Versão: 2.00
 </label> 
 
 

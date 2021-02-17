@@ -53,10 +53,9 @@ telefone:  <input type="text" style="margin-top: 15px; margin-left: 15px; margin
 <br/>
 <br/>
 
-<label> Desenvolvido por: Lucas de Liz Frutuoso
-</label> <br/>
+<label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
 <label>
-Versão: 1.00
+Versão: 2.00
 </label>
 
     <!-- Optional JavaScript -->

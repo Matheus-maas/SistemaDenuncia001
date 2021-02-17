@@ -41,6 +41,7 @@
     <br/>
     Senha: <input type="password" style="margin-top: 15px; margin-left: 15px; margin-right: 15px;"/><br/>
     <br/>
+     <button onclick="window.location.href='telaInicial.php';" type="button" class="btn btn-primary btn-lg">VOLTAR</button>
     <button  type="button" class="btn btn-primary btn-lg">LOGAR</button>
     <br/>
     <br/>
@@ -52,10 +53,9 @@
 
 
 <label>
-Desenvolvido por: Lucas de Liz Frutuoso
-</label> <br/>
+<label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
 <label>
-Versão: 1.00
+Versão: 2.00
 </label>
 
     <!-- Optional JavaScript -->

@@ -26,7 +26,7 @@
     </style>
   </head>
   <body>
-  <img src="Logo1.png" width="1350" height="240">
+  <img src="imagens/logo1.png" width="1350" height="240">
 
 <fieldset style="width: 50%; margin: 0px auto;" ><legend> <br/><h1>Tela de Cadastro </h1> </legend>
  
@@ -45,16 +45,15 @@
     <button type="button" class="btn btn-primary btn-lg">APAGAR</button>
     <button type="button" class="btn btn-primary btn-lg">SALVAR</button>
     
-
+    
     </div>
-
+    <br/>
 </fieldset>
 <br/>
 
-<label> Desenvolvido por: Lucas de Liz Frutuoso
-</label> <br/>
+<label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
 <label>
-    Versão: 1.00
+    Versão: 2.00
 </label>
 
     <!-- Optional JavaScript -->

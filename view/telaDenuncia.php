@@ -27,7 +27,7 @@
     </style>
   </head>
   <body>
-  <img src="Logo1.png" width="1350" height="260">
+  <img src="imagens/logo1.png" width="1350" height="260">
 
 <fieldset style="width: 50%; margin: 0px auto;"><legend> <h1> <br/>Cadastro de denuncia </h1> </legend>
 
@@ -57,10 +57,9 @@
 <br/>
 <br/>
 
-<label> Desenvolvido por: Lucas de Liz Frutuoso
-</label> <br/>
+<label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
 <label>
-Versão: 1.00
+Versão: 2.00
 </label>
 
     <!-- Optional JavaScript -->
