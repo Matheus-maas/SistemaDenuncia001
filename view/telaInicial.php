@@ -1,92 +1,84 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>AccessibilitReport</title>
+        <title>AccessibilitReport</title>
 
-    <style>
-         .painelTexto{
-            position: absolute;
-            width: 900px;
-            height: auto;
-            background-color: buttonface;
-            left: 50%;
-            top: 60%;
-            transform: translate(-50%, -60%);
-        }
-        
-        .painelBotao{
-            text-align: 100%;
-            width: 1730px;
-            height: 70px;
-            padding: 10px;
-            background-color: darkblue;
-        }
-        iframe{
-                width: 100%;
-                margin-top: 20px;
-                background-color: white;
-                height: 500px;
+        <style>
+            .painelTexto{
+                position: absolute;
+                width: 900px;
+                height: auto;
+                background-color: buttonface;
+                left: 50%;
+                top: 74.6%;
+                transform: translate(-50%, -60%);
             }
-        h1 {
-            color: #010101;
-            text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.97);
-        }
-        h2 {
-            color: #010101;
-        }
 
-        body {
-        background-color: White
-        }
-        
-        label {
-            position: relative;
-            margin-top: 800px;
-        }
+            .painelBotao{
+                width: 885px;
+                height: 70px;
+                padding: 10px;
+                background-color: darkblue;
+            }
+            h1 {
+                color: #010101;
+                text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.97);
+            }
+            h2 {
+                color: #010101;
+            }
 
-    </style>
-  </head>
-  <body>
-      <div class="imagem"> 
-         <img src="imagens/logo1.png" width="1350" height="240"> <br/>
-         <div/> 
-         
-         <div class="painelBotao">
-             <button  onclick="window.location.href='telaCadastro.php';" type="button" class="btn btn-primary btn-lg">Cadastre-se</button>
-             <button onclick="window.location.href='telaLogin.php';" type="button" class="btn btn-primary btn-lg">Fazer Login</button>
-             <button onclick="window.location.href='telaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Cadastro de Denúncias</button>
-             <button onclick="window.location.href='telaConsultaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Consulta de denúncias</button>
-             <button onclick="window.location.href='telaSuporte.php';" type="button" class="btn btn-primary btn-lg">Suporte</button>
-            
+            body {
+                background-color: White
+            }
+
+            label {
+                position: relative;
+                margin-top: 800px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="imagem"> 
+            <img src="imagens/logo1.png" width="1350" height="240"> 
+            <div/>
+
+                <div class="painelTexto"> 
+                    <h1> Qual o propósito desse site? </h1>
+
+                    <h2>  Este canal é voltado exclusivamente para denúncias de locais que não possuem acessibilidade.<br/>
+                        Exemplo: Locais que não possuem rampa de acesso, elevador, banheiro adaptado, etc. </h2>
+                    <h2> <strong>Lembre-se: denúncia falsa é crime!!!</strong> (CP, art. 339 e art. 340). </h2>
 <div/>
-             
-             
-<div class="painelTexto">
-
-<h1> Qual o propósito desse site? </h1>
-
-<h2>  Este canal é voltado exclusivamente para denúncias de locais que não possuem acessibilidade.<br/>
-Exemplo: Locais que não possuem rampa de acesso, elevador, banheiro adaptado, etc. </h2>
-<h2> <strong>Lembre-se: denúncia falsa é crime!!!</strong> (CP, art. 339 e art. 340). </h2>
-
-
-</div>
-
-<label> 
-Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas <br/>
-Versão: 2.00
-</label> 
+<br/>
+            
+            <div class="painelBotao"> 
+                <button onclick="window.location.href = 'telaCadastro.php';" type="button" class="btn btn-primary btn-lg">Cadastre-se</button>
+                <button onclick="window.location.href = 'telaLogin.php';" type="button" class="btn btn-primary btn-lg">Fazer Login</button>
+                <button onclick="window.location.href = 'telaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Cadastro de Denúncias</button>
+                <button onclick="window.location.href = 'telaConsultaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Consulta de denúncias</button>
+                <button onclick="window.location.href = 'telaSuporte.php';" type="button" class="btn btn-primary btn-lg">Suporte</button>
+<div/>
+                
 
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+
+                <label> 
+                    Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas <br/>
+                    Versão: 2.00
+                </label> 
+
+
+                <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                </body>
+                </html>
