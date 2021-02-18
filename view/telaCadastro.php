@@ -4,12 +4,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <title>AccessibilitReport</title>
-
     <style>
         h1 {
             color: #010101;
@@ -26,12 +23,12 @@
     </style>
   </head>
   <body>
+      
   <img src="imagens/logo1.png" width="1350" height="240">
-
+  
 <fieldset style="width: 50%; margin: 0px auto;" ><legend> <br/><h1>Tela de Cadastro </h1> </legend>
  
 <div align="center">
-
     Nome:  <input type="text" style="margin-top: 15px; margin-left: 15px; margin-right: 15px; "/><br/>
     <br/>
     Usuario:  <input type="text" style="margin-top: 15px; margin-left: 15px; margin-right: 15px; "/><br/>
@@ -50,12 +47,10 @@
     <br/>
 </fieldset>
 <br/>
-
 <label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
 <label>
     Versão: 2.00
 </label>
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
