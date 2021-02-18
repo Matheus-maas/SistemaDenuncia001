@@ -26,7 +26,7 @@
   </head>
   <body>
       <br/>
-  <div align="center"><img src="imagens/RTna3e.gif"></div>
+  <div align="center"><img src="gif1.gif"></div>
 
 <h1> Possui dúvidas? </h1>
 <h2> Entre em contato pelo email: lucas--frutuoso@hotmail.com ou pelo telefone (47) 3523-0465 </h2>

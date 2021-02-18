@@ -43,7 +43,7 @@
     </head>
     <body>
         <div class="imagem"> 
-            <img src="imagens/logo1.png" width="1350" height="240"> 
+            <img src="logo1.png" width="1350" height="240"> 
             <div/>
 
                 <div class="painelTexto"> 
