@@ -27,7 +27,7 @@
     </style>
   </head>
   <body>
-  <img src="Logo1.png" width="1350" height="260">
+  <img src="imagens/logo1.png" width="1350" height="260">
 
 <fieldset style="width: 50%; margin: 0px auto;"><legend> <h1> <br/>Cadastro de Endereço </h1> </legend>
 
