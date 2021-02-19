@@ -36,24 +36,25 @@
         <fieldset style="width: 50%; margin: 0px auto;"><legend> <h1> <br/>Cadastro de denuncia </h1> </legend>
 
 
-
+            <form></form>
             <label> Descrição do problema: </label> <br/>
             <div align="center">
-                <textarea name='texto' cols='60' rows='6'> </textarea> 
+                <textarea name="descricaoProblema" cols='60' rows='6'> </textarea> 
                 <br/>
                 <br/>
             </div>
             <label>Dica de solução:</label> <br/>
             <div align="center">
-                <textarea name='texto' cols='60' rows='6'></textarea> <br/>
+                <textarea name="sugestao" cols='60' rows='6'></textarea> <br/>
                 <br/>
                 <button onclick="window.location.href = 'telaInicial.php';" type="button" class="btn btn-primary btn-lg">VOLTAR</button>
-                <button type="button" class="btn btn-primary btn-lg">CANCELAR</button>
+                <button type="reset" class="btn btn-primary btn-lg">APAGAR</button>
                 <button type="button" class="btn btn-primary btn-lg">SALVAR</button>
                 <button onclick="window.location.href = 'telaEndereco.php';" type="button" class="btn btn-primary btn-lg">PRÓXIMO</button>
                 <br/>
                 <br/>
             </div>
+            </form>
         </fieldset><br/>
 
     </fieldset>

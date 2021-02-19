@@ -29,7 +29,7 @@
         <fieldset style="width: 50%; margin: 0px auto;" ><legend> <br/><h1>Tela de Cadastro </h1> </legend>
 
             <div align="center">
-               <form method="post" action="processaCadastro.php"> -->
+               <form method="post" action="processaCadastro.php"> 
                 <div class="form-group row">
                     <label class="col-sm-2 col-form-label">Nome</label>
                     <div class="col-sm-8">
@@ -57,8 +57,7 @@
                         <br/>
                         
                         <input onclick="window.location.href = 'telaInicial.php';" type="button" class="btn btn-primary btn-lg" value="Voltar">
-                        <input type="button" class="btn btn-primary btn-lg" value="Cancelar">
-                        <input type="button" class="btn btn-primary btn-lg" value="Apagar">
+                        <input type="reset" class="btn btn-primary btn-lg" value="Apagar">
                         <input type="submit" name="btnCadUsuario" class="btn btn-primary btn-lg" value="Salvar">
 
 
