@@ -31,7 +31,7 @@
     </style>
   </head>
   <body>
-      <img src="logo1.png" width="1350" height="260">
+      <img src="logo1.png" width="100%" height="260">
 
 <fieldset style="width: 50%; margin: 0px auto;" ><legend> <br/> <h1> Tela de Login </h1> </legend>
 

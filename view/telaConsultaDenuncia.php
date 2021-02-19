@@ -31,7 +31,7 @@
         </style>
     </head>
     <body>
-        <img src="logo1.png" width="1350" height="240">
+        <img src="logo1.png" width="100%" height="240">
 
         <fieldset style="width: 50%; margin: 0px auto;"> <legend> <h1> <br/> Consulta de denúncias realizadas</h1> </legend>
             <div align="center">
