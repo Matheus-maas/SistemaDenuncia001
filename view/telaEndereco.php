@@ -31,8 +31,9 @@
 
         <fieldset style="width: 50%; margin: 0px auto;"><legend> <h1> <br/>Cadastro de Endereço </h1> </legend>
 
-            <div align="center">
+             <div align="center">
                 
+                <form method="post" action="processaEndereco.php">
                 <div class="form-group row">
                     <label class="col-sm-2 col-form-label">Local</label>
                     <div class="col-sm-8">
@@ -72,14 +73,14 @@
                 <br/>
                 <button onclick="window.location.href = 'telaInicial.php';" type="button" class="btn btn-primary btn-lg">VOLTAR</button>
                 <button type="button" class="btn btn-primary btn-lg">CANCELAR</button>
-                <button onClick="alert('Denuncia Realizada com sucesso'); return true" type="button" class="btn btn-primary btn-lg">SALVAR</button>
+                <button onClick="alert('Denuncia Realizada com sucesso'); return true" type="submit" class="btn btn-primary btn-lg">SALVAR</button>
                 <button onclick="window.location.href = 'telaDenuncia.php';" type="button" class="btn btn-primary btn-lg">PRÓXIMO</button>
+                </form>
                 <br/>
                 <br/>
             </div>
         </fieldset><br/>
 
-    </fieldset>
 
     <br/>
     <br/>

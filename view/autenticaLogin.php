@@ -2,6 +2,7 @@
 <?php
     $conexao = mysqli_connect("127.0.0.1", "root", "");
     mysqli_select_db($conexao, "projeto");
+    session_start();
 ?>
 <html lang="pt-br">
     <head>
@@ -42,7 +43,6 @@
                 unset ($_SESSION['password']);
                 
                 echo"Você foi logado com sucesso. Redirecionando em 2 segundos.";
-                echo "$username";
                 echo"<script language='javascript'>sucesso()</script";          
             }
 
