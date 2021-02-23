@@ -38,3 +38,8 @@ FOREIGN KEY (Endereco_id)REFERENCES endereco (idEndereco),
 FOREIGN KEY (Status_id)REFERENCES status (idStatus) 
 )Engine=InnoDB;
 
+INSERT into status (idStatus, status) values (1, 'Pendente');
+INSERT into status (idStatus, status) values (2, 'Em andamento');
+INSERT into status (idStatus, status) values (3, 'Concluido');
+
+
