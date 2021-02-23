@@ -22,6 +22,7 @@
             }
 
             .painelBotao{
+                margin: 0 auto;
                 width: 605px;
                 height: 70px;
                 padding: 10px;
@@ -56,7 +57,8 @@
                 <br/>
 
 
-                <div class="painelBotao" ><button onclick="window.location.href = 'telaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Cadastro de Denúncias</button>
+                <div class="painelBotao" align="center">
+                    <button onclick="window.location.href = 'telaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Cadastro de Denúncias</button>
                     <button onclick="window.location.href = 'telaConsultaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Consulta de denúncias</button>
                     <button onclick="window.location.href = 'telaSuporte.php';" type="button" class="btn btn-primary btn-lg">Suporte</button>
                     <div/> 
