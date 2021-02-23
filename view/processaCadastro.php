@@ -22,7 +22,7 @@ mysqli_select_db($conexao, "projeto");
         $password = md5($password);
         $email = $_POST["email"];
 
-        $inserir = "INSERT INTO pessoa (nome, username, password, email) 
+        $inserir = "INSERT INTO usuario (nome, username, password, email) 
         VALUES ('$nome', '$username', '$password', '$email');";
         mysqli_query($conexao, $inserir) or die (mysqli_error($conexao));
         echo"Usuario cadastrado com sucesso. Redirecionando para tela de login em 2 segundos.";

@@ -1,0 +1,40 @@
+create table usuario(
+idUsuario serial,
+nome varchar(60) not null,
+username varchar(60) not null,
+password varchar(200) not null,
+email varchar(20) not null,
+PRIMARY KEY (idUsuario)	
+)Engine=InnoDB;
+
+alter table usuario add constraint unique_username unique(username);
+
+create table endereco(
+idEndereco serial,
+estado varchar(40) not null,
+cidade varchar(40) not null,
+bairro varchar(60) not null,
+rua varchar(60) not null,
+telefone varchar(15) not null,
+PRIMARY KEY(idEndereco)
+)Engine=InnoDB;
+
+CREATE TABLE status (
+idStatus integer NOT NULL,
+status varchar (65),
+PRIMARY KEY (idStatus)
+)Engine=InnoDB;
+
+create table denuncia(
+idDenuncia serial,
+descricaoProblema varchar(200),
+dicaSolucao varchar(200),
+local varchar(60),
+Usuario_id BIGINT UNSIGNED ,
+Endereco_id BIGINT UNSIGNED ,
+Status_id int(20),
+FOREIGN KEY (Usuario_id)REFERENCES usuario (idUsuario),
+FOREIGN KEY (Endereco_id)REFERENCES endereco (idEndereco),
+FOREIGN KEY (Status_id)REFERENCES status (idStatus) 
+)Engine=InnoDB;
+
