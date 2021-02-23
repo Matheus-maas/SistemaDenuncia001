@@ -58,7 +58,7 @@
             <div class="painelBotao"> 
                 <button onclick="window.location.href = 'telaCadastro.php';" type="button" class="btn btn-primary btn-lg">Cadastre-se</button>
                 <button onclick="window.location.href = 'telaLogin.php';" type="button" class="btn btn-primary btn-lg">Fazer Login</button>
-                <button onclick="window.location.href = 'telaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Cadastro de Denúncias</button>
+                <button onclick="window.location.href = 'telaEndereco.php';" type="button" class="btn btn-primary btn-lg">Cadastro de Denúncias</button>
                 <button onclick="window.location.href = 'telaConsultaDenuncia.php';" type="button" class="btn btn-primary btn-lg">Consulta de denúncias</button>
                 <button onclick="window.location.href = 'telaSuporte.php';" type="button" class="btn btn-primary btn-lg">Suporte</button>
 <div/>
