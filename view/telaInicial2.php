@@ -28,6 +28,12 @@
                 padding: 10px;
                 background-color: darkblue;
             }
+            
+            label{
+               
+              
+            }
+            
             h1 {
                 color: #010101;
                 text-shadow: 1px 1px 1px rgba(1, 1, 1, 0.97);
@@ -63,13 +69,13 @@
                     <button onclick="window.location.href = 'telaSuporte.php';" type="button" class="btn btn-primary btn-lg">Suporte</button>
                     <div/> 
 
-                    <div class="label">
+                  
                         <br/>
                         <label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
                         <label>
                             Versão: 2.00
                         </label>
-                        <div/>  
+                      
 
 
                         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
