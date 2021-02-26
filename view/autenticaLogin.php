@@ -26,7 +26,7 @@
             $username = $_POST["username"];
             $password = $_POST["password"];
             $password = md5($password);
-
+            
             $consulta = mysqli_query($conexao, "select * from usuario 
             WHERE username = '$username' AND password = '$password'");
            
@@ -35,7 +35,7 @@
             $_SESSION['username']=$username;
             $_SESSION['password']=$password;
                echo"Usuario ou senha inválidos. Redirecionando para tela de login em 2 segundos.";
-                echo"<script language='javascript'>falha()</script";
+               echo"<script language='javascript'>falha()</script";
             
             } 
             else {
@@ -44,7 +44,6 @@
                 
                 echo"Você foi logado com sucesso. Redirecionando em 2 segundos.";
                 echo"<script language='javascript'>sucesso()</script";          
-               
             }
 
         ?>

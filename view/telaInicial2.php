@@ -1,4 +1,4 @@
-<!doctype html>
+<?php ?>
 <html lang="en">
     <head>
         <!-- Required meta tags -->
@@ -24,7 +24,7 @@
             .painelBotao{
                 margin: 0 auto;
                 width: 605px;
-                height: 70px;
+                height: auto;
                 padding: 10px;
                 background-color: darkblue;
             }
@@ -46,13 +46,23 @@
                 background-color: white;
             }
 
+            .label1 {
+                position: absolute;
+                left: 0%;
+                top: 96%;
+            }
+            .label2 {
+                position: absolute;
+                left: 0%;
+                top: 100%;
+            }
+
         </style>
     </head>
     <body>
-        <div class="imagem"> 
             <img src="logo1.png" width="100%" height="240"> 
-            <div/>
 
+            <fieldset style="width: 50%; margin: 0px auto;" >
             <div class="painelTexto"> 
                 <h1> Qual o propósito desse site? </h1>
 
@@ -69,6 +79,11 @@
                     <button onclick="window.location.href = 'telaSuporte.php';" type="button" class="btn btn-primary btn-lg">Suporte</button>
                     <div/> 
 
+                    </fieldset>
+                    <label class="label1"> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
+                    <label class="label2">
+                        Versão: 2.00
+                    </label>
                   
                         <br/>
                         <label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
@@ -78,9 +93,10 @@
                       
 
 
-                        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-                        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-                        </body>
+                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+                    <?php ?>
+                    </body>
 
-                        </html>
+                    </html>

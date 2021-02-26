@@ -11,6 +11,7 @@ alter table usuario add constraint unique_username unique(username);
 
 create table endereco(
 idEndereco serial,
+local varchar(60) not null,
 estado varchar(40) not null,
 cidade varchar(40) not null,
 bairro varchar(60) not null,
@@ -29,7 +30,6 @@ create table denuncia(
 idDenuncia serial,
 descricaoProblema varchar(200),
 dicaSolucao varchar(200),
-local varchar(60),
 Usuario_id BIGINT UNSIGNED ,
 Endereco_id BIGINT UNSIGNED ,
 Status_id int(20),
@@ -37,4 +37,9 @@ FOREIGN KEY (Usuario_id)REFERENCES usuario (idUsuario),
 FOREIGN KEY (Endereco_id)REFERENCES endereco (idEndereco),
 FOREIGN KEY (Status_id)REFERENCES status (idStatus) 
 )Engine=InnoDB;
+
+INSERT into status (idStatus, status) values (1, 'Pendente');
+INSERT into status (idStatus, status) values (2, 'Em andamento');
+INSERT into status (idStatus, status) values (3, 'Concluido');
+
 

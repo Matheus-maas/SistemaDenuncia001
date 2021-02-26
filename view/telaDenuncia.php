@@ -39,12 +39,7 @@
 
 
             <form>
-                <div class="form-group row">
-                    <label class="col-sm-2 col-form-label">Local</label>
-                    <div class="col-sm-8">
-                        <input type="text" name="nomeLocal" class="form-control" id="inputtext3">
-                    </div>
-                </div>
+                
                 <label> Descrição do problema: </label> <br/>
                 <div align="center">
                     <textarea name="descricaoProblema" cols='60' rows='6'> </textarea> 
@@ -55,10 +50,10 @@
                 <div align="center">
                     <textarea name="sugestao" cols='60' rows='6'></textarea> <br/>
                     <br/>
-                    <button onclick="window.location.href = 'telaInicial.php';" type="button" class="btn btn-primary btn-lg">VOLTAR</button>
+                    <button onclick="window.location.href = 'telaEndereco.php';" type="button" class="btn btn-primary btn-lg">VOLTAR</button>
                     <button type="reset" class="btn btn-primary btn-lg">APAGAR</button>
-                    <button type="button" class="btn btn-primary btn-lg">SALVAR</button>
-                    <button onclick="window.location.href = 'telaEndereco.php';" type="button" class="btn btn-primary btn-lg">PRÓXIMO</button>
+                    <button onClick="alert('Denuncia Realizada com sucesso'); return true" type="button" class="btn btn-primary btn-lg">SALVAR</button>
+
                     <br/>
                     <br/>
                 </div>
