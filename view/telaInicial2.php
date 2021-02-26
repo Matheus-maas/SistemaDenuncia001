@@ -29,8 +29,8 @@
                 background-color: darkblue;
             }
             
-            label{
-               
+            .label{
+               margin-top: 35%;
               
             }
             
@@ -80,16 +80,14 @@
                     <div/> 
 
                     </fieldset>
-                    <label class="label1"> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
-                    <label class="label2">
-                        Versão: 2.00
-                    </label>
                   
                         <br/>
+                        <div class="label">
                         <label> Desenvolvido por: Lucas de Liz Frutuoso e Matheus Henrique Maas</label> <br/>
                         <label>
                             Versão: 2.00
                         </label>
+                        <div/>
                       
 
 
